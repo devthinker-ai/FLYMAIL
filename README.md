@@ -178,6 +178,14 @@ presynaptic consensus neurotransmitter.
 
 See `NOTICE.md` for attribution.
 
+## License
+
+This project is released under the **MIT License** — see [`LICENSE`](LICENSE).
+
+Upstream engine code from [webgpu-fly](https://github.com/abgnydn/webgpu-fly)
+is also MIT (copyright Ahmet Barış Günaydın); the MaleCNS connectome data is
+**CC BY 4.0**. Full credits in [`NOTICE.md`](NOTICE.md).
+
 ## Repo layout
 
 ```
@@ -194,6 +202,8 @@ maleflymail/
 ├── screenshots/         # README demo images + screen recording
 ├── prompts/             # Cursor prompts (phaseN-cursor-prompt.md)
 ├── AGENTS.md            # agent operating notes
+├── LICENSE              # MIT
+├── NOTICE.md            # upstream attribution (engine + MaleCNS)
 └── reproduce.sh
 ```
 
