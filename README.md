@@ -13,11 +13,11 @@ optional local Ollama model (the "pen") can then polish the reply.
  166,700 neurons · 25,582,938 connections · MaleCNS v1.0 · LIF on WebGPU · 0 AIs
 ```
 
-> This is the male sibling of **flymail**,
-> which runs the **FAFB** female whole brain (139,255 neurons). Same engine,
-> same binary brain format — different (bigger, VNC‑including) dataset, so this
-> project is **fully self‑contained**: its own `brain.bin`, its own
-> download/build pipeline, its own ports.
+> This is the male sibling of **flymail**, which runs the **FAFB** female
+> whole brain (139,255 neurons). Same engine, same binary brain format —
+> different (bigger, VNC‑including) dataset, so this project is **fully
+> self‑contained**: its own `brain.bin`, its own download/build pipeline,
+> its own ports.
 
 ## Screenshots
 
