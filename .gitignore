@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.vite/
+server/.env
+
+# raw connectome feathers (~1.2 GB) — re-fetch with tools/download_data.sh
+data/raw/
+
+# training corpus: reports.csv is committed (small, ~25 KB); baselines + backups ignored
+data/reports.csv.bak
+data/*.bak
+
+# smoke/scratch output
+media/smoke.json

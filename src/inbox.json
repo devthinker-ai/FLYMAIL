@@ -1,0 +1,218 @@
+[
+  {
+    "id": "en-pay-01",
+    "from": "Billing Desk",
+    "address": "billing@acme-ops.example",
+    "subject": "Payment confirmation — INV-44821",
+    "body": "Hi,\n\nWe've received your payment of $1,240.00 for invoice INV-44821. The amount cleared today. No further action needed on your side.\n\nThanks,\nBilling Desk",
+    "lang": "en",
+    "category": "payment"
+  },
+  {
+    "id": "en-pay-02",
+    "from": "Stripe Receipts",
+    "address": "noreply@stripe.example",
+    "subject": "Payment succeeded for Acme Labs",
+    "body": "Payment of USD 89.00 to Acme Labs succeeded.\n\nCard ending 4242 · Ref ch_3QmFly.\nReceipt attached for your records.",
+    "lang": "en",
+    "category": "payment"
+  },
+  {
+    "id": "en-pay-03",
+    "from": "Payroll",
+    "address": "payroll@northwind.example",
+    "subject": "Direct deposit confirmation",
+    "body": "Your direct deposit for the period ending Sep 12 has been submitted. Expected arrival: 1–2 business days. Amount: $3,102.44.",
+    "lang": "en",
+    "category": "payment"
+  },
+  {
+    "id": "de-pay-01",
+    "from": "Buchhaltung",
+    "address": "rechnung@mueller-gmbh.example",
+    "subject": "Zahlungsbestätigung — RE-9021",
+    "body": "Guten Tag,\n\nwir haben Ihre Zahlung über 420,00 € für Rechnung RE-9021 erhalten. Der Betrag ist eingegangen. Es sind keine weiteren Schritte nötig.\n\nMit freundlichen Grüßen\nBuchhaltung",
+    "lang": "de",
+    "category": "payment"
+  },
+  {
+    "id": "en-rcp-01",
+    "from": "Cloud Store",
+    "address": "orders@cloudstore.example",
+    "subject": "Receipt for your Cloud subscription — $29.10",
+    "body": "Thanks for your purchase.\n\nItem: Cloud Pro (monthly)\nAmount: $29.10\nOrder #CS-77821\n\nYou can manage billing in your account settings.",
+    "lang": "en",
+    "category": "receipt"
+  },
+  {
+    "id": "en-rcp-02",
+    "from": "Bookstore Online",
+    "address": "receipts@booklane.example",
+    "subject": "Your receipt — order BL-1902",
+    "body": "Order BL-1902 shipped.\n\n1× Deep Learning Notes — $18.50\nShipping — $4.00\nTotal charged: $22.50\n\nTracking will follow separately.",
+    "lang": "en",
+    "category": "receipt"
+  },
+  {
+    "id": "en-rcp-03",
+    "from": "Café Meridian",
+    "address": "pos@cafemeridian.example",
+    "subject": "Receipt: latte + pastry",
+    "body": "Thanks for stopping by.\n\nLatte — $4.50\nAlmond croissant — $3.75\nTax — $0.66\nTotal: $8.91\n\nCard ···· 1188",
+    "lang": "en",
+    "category": "receipt"
+  },
+  {
+    "id": "en-rcp-04",
+    "from": "Hardware Co",
+    "address": "sales@hardwareco.example",
+    "subject": "Purchase receipt — USB hub",
+    "body": "You bought: USB-C Hub 7-port.\nPrice: $34.99 + tax $2.80 = $37.79.\nInvoice HWC-4410. Keep this email for warranty.",
+    "lang": "en",
+    "category": "receipt"
+  },
+  {
+    "id": "en-dig-01",
+    "from": "Creator Digest",
+    "address": "digest@creatorweekly.example",
+    "subject": "Your weekly creator digest",
+    "body": "This week: 3 tools worth trying, one essay on shipping small demos, and a short thread on connectomes in the browser.\n\nRead the full digest →",
+    "lang": "en",
+    "category": "digest"
+  },
+  {
+    "id": "en-dig-02",
+    "from": "Automation Notes",
+    "address": "hello@automationnotes.example",
+    "subject": "Weekly automation newsletter",
+    "body": "Issue #214 — queue workers without Kubernetes, a checklist for idempotent jobs, and one bad idea we tried anyway.\n\nUnsubscribe anytime.",
+    "lang": "en",
+    "category": "digest"
+  },
+  {
+    "id": "en-dig-03",
+    "from": "Lab Roundup",
+    "address": "roundup@labnotes.example",
+    "subject": "Friday lab roundup",
+    "body": "Five papers, two preprint links, and a note on open connectome releases. Skim in five minutes.",
+    "lang": "en",
+    "category": "digest"
+  },
+  {
+    "id": "en-dig-04",
+    "from": "Product Pulse",
+    "address": "pulse@productpulse.example",
+    "subject": "Product Pulse — week of Sep 14",
+    "body": "What shipped this week across 12 indie tools. Highlights: a WebGPU LIF demo and a quieter inbox UX.",
+    "lang": "en",
+    "category": "digest"
+  },
+  {
+    "id": "en-mtg-01",
+    "from": "Alex Rivera",
+    "address": "alex.rivera@partner.example",
+    "subject": "Confirming our meeting next week",
+    "body": "Hi — are you free Tuesday 10:00 or Wednesday 14:30 for a 30-minute sync on the demo timeline?\n\nHappy to send a calendar hold once you pick a slot.\n\n— Alex",
+    "lang": "en",
+    "category": "meeting"
+  },
+  {
+    "id": "en-mtg-02",
+    "from": "Sam Okonkwo",
+    "address": "sam@okonkwo.example",
+    "subject": "Quick call to align on scope?",
+    "body": "Could we find 20 minutes this week? I have Thu 09:00–11:00 open, or Fri after 15:00. Looking to align on deliverables before Friday.",
+    "lang": "en",
+    "category": "meeting"
+  },
+  {
+    "id": "en-mtg-03",
+    "from": "Jordan Lee",
+    "address": "jordan.lee@studio.example",
+    "subject": "Reschedule our 1:1?",
+    "body": "Something came up Mon. Can we move our 1:1 to Wednesday afternoon? Any time after 13:00 works on my side.",
+    "lang": "en",
+    "category": "meeting"
+  },
+  {
+    "id": "de-mtg-01",
+    "from": "Nina Berger",
+    "address": "nina.berger@atelier.example",
+    "subject": "Terminfindung für Abstimmung",
+    "body": "Hallo,\n\nhättest du am Dienstag um 11:00 oder am Donnerstag um 15:30 Zeit für ein kurzes Gespräch (30 Min) zur Demo?\n\nViele Grüße\nNina",
+    "lang": "de",
+    "category": "meeting"
+  },
+  {
+    "id": "en-cmp-01",
+    "from": "Morgan Ellis",
+    "address": "morgan.ellis@client.example",
+    "subject": "Still waiting on the revised quote",
+    "body": "I asked for the revised quote last Thursday and still have nothing. This is blocking our kickoff. Please escalate — I need a clear answer today.",
+    "lang": "en",
+    "category": "complaint"
+  },
+  {
+    "id": "en-cmp-02",
+    "from": "Priya Shah",
+    "address": "priya@shahco.example",
+    "subject": "Wrong item delivered — again",
+    "body": "Order PS-331 arrived with the wrong SKU for the second time. This is unacceptable. I want a prepaid return label and a correct replacement by Friday, or a full refund.",
+    "lang": "en",
+    "category": "complaint"
+  },
+  {
+    "id": "en-cmp-03",
+    "from": "Chris Nguyen",
+    "address": "chris.nguyen@ops.example",
+    "subject": "Support ticket ignored for 5 days",
+    "body": "Ticket #88412 has had no reply for five days. Our production deploy is stalled. Please assign someone senior and confirm within the hour.",
+    "lang": "en",
+    "category": "complaint"
+  },
+  {
+    "id": "de-cmp-01",
+    "from": "Tobias Hartmann",
+    "address": "t.hartmann@kunde.example",
+    "subject": "Immer noch keine Antwort auf meine Beschwerde",
+    "body": "Seit einer Woche warte ich auf eine Rückmeldung zu Ticket #77201. Das ist inakzeptabel. Bitte kümmern Sie sich endlich darum und sagen Sie mir heute noch Bescheid.",
+    "lang": "de",
+    "category": "complaint"
+  },
+  {
+    "id": "en-per-01",
+    "from": "Maya Chen",
+    "address": "maya.chen@mail.example",
+    "subject": "Dinner this weekend?",
+    "body": "Hey — free Saturday evening? Thinking that little place by the river. No agenda, just catching up.\n\n— Maya",
+    "lang": "en",
+    "category": "personal"
+  },
+  {
+    "id": "en-per-02",
+    "from": "Uncle Rob",
+    "address": "rob.uncle@mail.example",
+    "subject": "Photos from the hike",
+    "body": "Attached a few shots from last Sunday. The ridge at golden hour was unreal. Hope you're doing well — call when you can.",
+    "lang": "en",
+    "category": "personal"
+  },
+  {
+    "id": "en-per-03",
+    "from": "Leila Ortega",
+    "address": "leila@friends.example",
+    "subject": "Thanks for helping me move",
+    "body": "Seriously — thank you. The bookshelves would still be in the hallway without you. Coffee on me next week?",
+    "lang": "en",
+    "category": "personal"
+  },
+  {
+    "id": "de-per-01",
+    "from": "Jonas Weber",
+    "address": "jonas.weber@mail.example",
+    "subject": "Kaffee am Sonntag?",
+    "body": "Hey,\n\nhast du Sonntag Nachmittag Zeit auf einen Kaffee? Ich bin in der Nähe und würde mich freuen.\n\nJonas",
+    "lang": "de",
+    "category": "personal"
+  }
+]

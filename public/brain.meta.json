@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "dataset": "male-cns:v1.0",
+  "sex": "male",
+  "coverage": "brain_and_ventral_nerve_cord",
+  "num_neurons": 166700,
+  "num_edges": 25582938,
+  "voxel_to_nm": [
+    8.0,
+    8.0,
+    8.0
+  ],
+  "stats": {
+    "with_soma": 139662,
+    "with_nt": 166522,
+    "silenced_edges": 1023803,
+    "self_edges": 101,
+    "retained_synaptic_contacts": 124177616,
+    "source_edge_rows": 151856684,
+    "source_synaptic_contacts": 311833243,
+    "class_counts": {
+      "unknown": 0,
+      "sensory": 17386,
+      "olfactory": 89403,
+      "central": 32168,
+      "vnc": 13199,
+      "visual": 9766,
+      "descending": 1332,
+      "ascending": 2393,
+      "motor": 909,
+      "endocrine": 94,
+      "ens": 50,
+      "other": 0
+    }
+  },
+  "super_class_table": [
+    "unknown",
+    "sensory",
+    "olfactory",
+    "central",
+    "vnc",
+    "visual",
+    "descending",
+    "ascending",
+    "motor",
+    "endocrine",
+    "ens",
+    "other"
+  ],
+  "node_policy": "Every annotation with a non-empty superclass and status != Glia (matches doomfly/data-provenance/malecns_v1 normalized report).",
+  "edge_policy": "All released minconf-0.5 edges between retained entries; upstream autapses kept; weight = contact count pre-signed by presynaptic consensus NT.",
+  "sources": {
+    "annotations.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "neurotransmitters.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+    },
+    "edges.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    }
+  },
+  "brain_bin_sha256": "27e37635514d974a13d6e123e6567f7b5ed6c7c9700ad0e3d36f5618944f1440",
+  "license": "CC BY 4.0",
+  "attribution": "MaleCNS collaboration: FlyEM at HHMI Janelia, University of Cambridge, MRC LMB, Google Research. https://male-cns.janelia.org/download/",
+  "build_seconds": 12.3
+}

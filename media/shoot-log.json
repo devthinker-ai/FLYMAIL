@@ -1,0 +1,357 @@
+[
+  {
+    "label": "German complaint",
+    "id": "de-cmp-01",
+    "mode": "fly",
+    "emailId": "de-cmp-01",
+    "category": "complaint",
+    "scores": [
+      0.002493736747129496,
+      0.006735839922032351,
+      0.0067041440243978435,
+      0.010004380993721196,
+      0.9698987560312007,
+      0.00416314228151846
+    ],
+    "plan": {
+      "category": "complaint",
+      "scores": [
+        0.002493736747129496,
+        0.006735839922032351,
+        0.0067041440243978435,
+        0.010004380993721196,
+        0.9698987560312007,
+        0.00416314228151846
+      ],
+      "tone": "de-escalating",
+      "length": 2,
+      "ask": true,
+      "language": "de"
+    },
+    "planLine": "tone=de-escalating · 2 sentences · asks question · de",
+    "reply": "Hallo Tobias,\n\nes tut mir leid zu Ihrer Nachricht „Immer noch keine Antwort auf meine Beschwerde“. Ich habe intern nachgefasst, damit das nicht wieder liegen bleibt. Ich kümmere mich persönlich darum und melde mich noch heute. Gibt es eine harte Frist, die ich einhalten muss?\n\nViele Grüße\nFLYMAIL",
+    "templateReply": "Hallo Tobias,\n\nes tut mir leid zu Ihrer Nachricht „Immer noch keine Antwort auf meine Beschwerde“. Ich habe intern nachgefasst, damit das nicht wieder liegen bleibt. Ich kümmere mich persönlich darum und melde mich noch heute. Gibt es eine harte Frist, die ich einhalten muss?\n\nViele Grüße\nFLYMAIL",
+    "features": [
+      0.1168,
+      10.1552,
+      26.9486,
+      46.7091,
+      3.9414,
+      1.8425,
+      4.0452,
+      55.2364,
+      38.1818,
+      262,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    "elapsedMs": 4114.099999904633,
+    "penMode": "fly",
+    "llm": null,
+    "llmFallback": false
+  },
+  {
+    "label": "EN meeting",
+    "id": "en-mtg-01",
+    "mode": "fly",
+    "emailId": "en-mtg-01",
+    "category": "meeting",
+    "scores": [
+      0.00005944387208592445,
+      0.0003221794440834393,
+      0.0001797579500972752,
+      0.9992857415589131,
+      0.00003394136192136324,
+      0.00011893581289893347
+    ],
+    "plan": {
+      "category": "meeting",
+      "scores": [
+        0.00005944387208592445,
+        0.0003221794440834393,
+        0.0001797579500972752,
+        0.9992857415589131,
+        0.00003394136192136324,
+        0.00011893581289893347
+      ],
+      "tone": "warm",
+      "length": 2,
+      "ask": true,
+      "language": "en"
+    },
+    "planLine": "tone=warm · 2 sentences · asks question · en",
+    "reply": "Hi Alex,\n\nI can do a short sync on \"Confirming our meeting next week\". I'm holding a flexible 30-minute window mid-week. Which of your slots is firmest?\n\nBest,\nFLYMAIL",
+    "templateReply": "Hi Alex,\n\nI can do a short sync on \"Confirming our meeting next week\". I'm holding a flexible 30-minute window mid-week. Which of your slots is firmest?\n\nBest,\nFLYMAIL",
+    "features": [
+      0.144,
+      10.6501,
+      27.7636,
+      52.0091,
+      4.1206,
+      2.4268,
+      4.5236,
+      56.6909,
+      47.3273,
+      276,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    "elapsedMs": 4120.300000190735,
+    "penMode": "fly",
+    "llm": null,
+    "llmFallback": false
+  },
+  {
+    "label": "EN payment",
+    "id": "en-pay-01",
+    "mode": "fly",
+    "emailId": "en-pay-01",
+    "category": "payment",
+    "scores": [
+      0.995479587334623,
+      0.0024814663332800844,
+      0.00038402094978293763,
+      0.0001781768829935231,
+      0.0003003845996335438,
+      0.0011763638996867345
+    ],
+    "plan": {
+      "category": "payment",
+      "scores": [
+        0.995479587334623,
+        0.0024814663332800844,
+        0.00038402094978293763,
+        0.0001781768829935231,
+        0.0003003845996335438,
+        0.0011763638996867345
+      ],
+      "tone": "confirming",
+      "length": 2,
+      "ask": true,
+      "language": "en"
+    },
+    "planLine": "tone=confirming · 2 sentences · asks question · en",
+    "reply": "Hello Billing,\n\nThanks for the confirmation regarding your note about \"Payment confirmation — INV-44821\". The ledger entry matches what you sent. Anything else to attach to this invoice?\n\nBest,\nFLYMAIL",
+    "templateReply": "Hello Billing,\n\nThanks for the confirmation regarding your note about \"Payment confirmation — INV-44821\". The ledger entry matches what you sent. Anything else to attach to this invoice?\n\nBest,\nFLYMAIL",
+    "features": [
+      0.1251,
+      9.3952,
+      24.1527,
+      32.7,
+      3.5331,
+      1.9721,
+      3.8719,
+      49.1636,
+      16.2364,
+      274,
+      4,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "elapsedMs": 4145.700000047684,
+    "penMode": "fly",
+    "llm": null,
+    "llmFallback": false
+  },
+  {
+    "label": "German complaint (LLM pen)",
+    "id": "de-cmp-01",
+    "mode": "llm",
+    "emailId": "de-cmp-01",
+    "category": "complaint",
+    "scores": [
+      0.002493736747129496,
+      0.006735839922032351,
+      0.0067041440243978435,
+      0.010004380993721196,
+      0.9698987560312007,
+      0.00416314228151846
+    ],
+    "plan": {
+      "category": "complaint",
+      "scores": [
+        0.002493736747129496,
+        0.006735839922032351,
+        0.0067041440243978435,
+        0.010004380993721196,
+        0.9698987560312007,
+        0.00416314228151846
+      ],
+      "tone": "de-escalating",
+      "length": 2,
+      "ask": true,
+      "language": "de"
+    },
+    "planLine": "tone=de-escalating · 2 sentences · asks question · de",
+    "reply": "Verstehen Sie unsere Schwierigkeiten mit den Verzögerungen. Wir arbeiten dauerhaft an der Verbesserung unserer Antwortzeiten. Könnten Sie uns bitte die Details zu Ihrem Ticket #77201 erneut senden? Danke für Ihr Verständnis.\n\nViele Grüße\nFLYMAIL",
+    "templateReply": "Hallo Tobias,\n\nes tut mir leid zu Ihrer Nachricht „Immer noch keine Antwort auf meine Beschwerde“. Ich habe intern nachgefasst, damit das nicht wieder liegen bleibt. Ich kümmere mich persönlich darum und melde mich noch heute. Gibt es eine harte Frist, die ich einhalten muss?\n\nViele Grüße\nFLYMAIL",
+    "features": [
+      0.1168,
+      10.1552,
+      26.9486,
+      46.7091,
+      3.9414,
+      1.8425,
+      4.0452,
+      55.2364,
+      38.1818,
+      262,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    "elapsedMs": 4158.299999952316,
+    "penMode": "llm",
+    "llm": {
+      "model": "qwen2.5:7b",
+      "elapsedMs": 2362.5
+    },
+    "llmFallback": false
+  },
+  {
+    "label": "EN meeting (LLM pen)",
+    "id": "en-mtg-01",
+    "mode": "llm",
+    "emailId": "en-mtg-01",
+    "category": "meeting",
+    "scores": [
+      0.00005944387208592445,
+      0.0003221794440834393,
+      0.0001797579500972752,
+      0.9992857415589131,
+      0.00003394136192136324,
+      0.00011893581289893347
+    ],
+    "plan": {
+      "category": "meeting",
+      "scores": [
+        0.00005944387208592445,
+        0.0003221794440834393,
+        0.0001797579500972752,
+        0.9992857415589131,
+        0.00003394136192136324,
+        0.00011893581289893347
+      ],
+      "tone": "warm",
+      "length": 2,
+      "ask": true,
+      "language": "en"
+    },
+    "planLine": "tone=warm · 2 sentences · asks question · en",
+    "reply": "Sure, I'm available on Tuesday at 10:00 or Wednesday at 14:30. Which works better for you?\n\nBest,\nFLYMAIL",
+    "templateReply": "Hi Alex,\n\nI can do a short sync on \"Confirming our meeting next week\". I'm holding a flexible 30-minute window mid-week. Which of your slots is firmest?\n\nBest,\nFLYMAIL",
+    "features": [
+      0.144,
+      10.6501,
+      27.7636,
+      52.0091,
+      4.1206,
+      2.4268,
+      4.5236,
+      56.6909,
+      47.3273,
+      276,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    "elapsedMs": 4169.5,
+    "penMode": "llm",
+    "llm": {
+      "model": "qwen2.5:7b",
+      "elapsedMs": 1290.2000000476837
+    },
+    "llmFallback": false,
+    "scoresFly": [
+      0.00005944387208592445,
+      0.0003221794440834393,
+      0.0001797579500972752,
+      0.9992857415589131,
+      0.00003394136192136324,
+      0.00011893581289893347
+    ]
+  },
+  {
+    "label": "EN payment (LLM pen)",
+    "id": "en-pay-01",
+    "mode": "llm",
+    "emailId": "en-pay-01",
+    "category": "payment",
+    "scores": [
+      0.995479587334623,
+      0.0024814663332800844,
+      0.00038402094978293763,
+      0.0001781768829935231,
+      0.0003003845996335438,
+      0.0011763638996867345
+    ],
+    "plan": {
+      "category": "payment",
+      "scores": [
+        0.995479587334623,
+        0.0024814663332800844,
+        0.00038402094978293763,
+        0.0001781768829935231,
+        0.0003003845996335438,
+        0.0011763638996867345
+      ],
+      "tone": "confirming",
+      "length": 2,
+      "ask": true,
+      "language": "en"
+    },
+    "planLine": "tone=confirming · 2 sentences · asks question · en",
+    "reply": "Thank you for your payment of $1,240.00 for invoice INV-44821. We confirm it has been received and cleared today. Do you have any questions regarding this transaction?\n\nBest,\nFLYMAIL",
+    "templateReply": "Hello Billing,\n\nThanks for the confirmation regarding your note about \"Payment confirmation — INV-44821\". The ledger entry matches what you sent. Anything else to attach to this invoice?\n\nBest,\nFLYMAIL",
+    "features": [
+      0.1251,
+      9.3952,
+      24.1527,
+      32.7,
+      3.5331,
+      1.9721,
+      3.8719,
+      49.1636,
+      16.2364,
+      274,
+      4,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "elapsedMs": 4120.200000047684,
+    "penMode": "llm",
+    "llm": {
+      "model": "qwen2.5:7b",
+      "elapsedMs": 1608.7999999523163
+    },
+    "llmFallback": false,
+    "scoresFly": [
+      0.995479587334623,
+      0.0024814663332800844,
+      0.00038402094978293763,
+      0.0001781768829935231,
+      0.0003003845996335438,
+      0.0011763638996867345
+    ]
+  }
+]
